@@ -1,7 +1,3 @@
-.MuiDialog-container {
-    position: fixed;
-  }
-
 .container {
     padding: 0 2rem;
 }
@@ -84,9 +80,8 @@
 
 .card:focus,
 .card:active {
-    background-color:#0d004d;
+    background-color: rgba(255, 255, 255, 0.5);
     background-clip: text;
-    color: transparent;
     border-color: orange;
 }
 
