@@ -31,7 +31,7 @@
     margin: 0;
     line-height: 1.15;
     font-size: calc(1.5rem + 2vmin);
-    background-image: #0d004d;
+    background-color: #0d004d;
     background-clip: text;
     color: transparent;
 }
@@ -79,7 +79,7 @@
 
 .card:focus,
 .card:active {
-    background-image:#0d004d;
+    background-color:#0d004d;
     background-clip: text;
     color: transparent;
     border-color: orange;
@@ -124,7 +124,7 @@
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 5px;
-    background-image: #0d004d;
+    background-color: #0d004d;
     background-clip: border-box;
     cursor: pointer;
     width: 100%;
