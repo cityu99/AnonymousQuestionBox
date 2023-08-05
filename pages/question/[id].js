@@ -42,6 +42,7 @@ export default function QuestionCard(props) {
     const [expanded, setExpanded] = useState(true);
     const [logged, setLogged] = useState(false);
     const [answer, setAnswer] = useState("");
+    const [feedbackNeeded, setFeedbackNeeded] = useState(false);
     const [snackbarOpen, setSnackbarOpen] = useState(false);
     const [snackbarHint, setSnackbarHint] = useState("");
     const [token, setToken] = useState("");
@@ -113,6 +114,10 @@ export default function QuestionCard(props) {
                         <ExpandMore expand={expanded} onClick={handleExpandClick} aria-expanded={expanded} aria-label="comment">
                             {expanded ? <ExpandLessOutlinedIcon /> : <AddCommentOutlinedIcon />}
                         </ExpandMore>
+                        <input type="radio" id="feedbackYes" name="feedback" checked={feedbackNeeded} onChange={() => setFeedbackNeeded(true)} />
+<label htmlFor="feedbackYes">是</label>
+<input type="radio" id="feedbackNo" name="feedback" checked={!feedbackNeeded} onChange={() => setFeedbackNeeded(false)} />
+<label htmlFor="feedbackNo">否</label>
                     </CardActions>
                     <Collapse in={expanded} timeout="auto" unmountOnExit>
                         {logged ? (
