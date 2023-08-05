@@ -80,7 +80,7 @@ export default function QuestionCard(props) {
                 token,
             },
         });
-        setSnackbarHint("删除成功");
+        setSnackbarHint("刪除成功");
         setSnackbarOpen(true);
         router.back();
     };
@@ -90,7 +90,7 @@ export default function QuestionCard(props) {
     };
 
     return (
-        <Container title="问题详情">
+        <Container title="意見詳情">
             {!question ? (
                 <CircularProgress />
             ) : (
@@ -134,13 +134,13 @@ export default function QuestionCard(props) {
                                     />
                                 </CardContent>
                                 <CardActions disableSpacing>
-                                    {logged && (
+                                    /*{logged && (
                                         <>
                                             <Button size="small" onClick={handleDeleteQuestion}>
-                                                删除问题
+                                                刪除意見
                                             </Button>
                                         </>
-                                    )}
+                                    )}*/
                                     <Button style={{ marginLeft: "auto" }} size="small" onClick={handleSaveAnswer}>
                                         回答
                                     </Button>
