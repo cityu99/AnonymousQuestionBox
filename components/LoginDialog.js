@@ -24,11 +24,11 @@ export default function LoginDialog(props) {
     return (
         <>
             <Dialog open={open} onClose={handleClose}>
-                <DialogTitle>身份验证</DialogTitle>
+                <DialogTitle>管理員入口</DialogTitle>
                 <DialogContent>
                     <Alert severity="info">
                         <strong>
-                            请输入您在启动时设置的密钥（USER_KEY）
+                            请输入
                         </strong>
                     </Alert>
                     <TextField
