@@ -1,3 +1,7 @@
+.MuiDialog-container {
+    position: fixed;
+  }
+
 .container {
     padding: 0 2rem;
 }
@@ -11,6 +15,7 @@
     justify-content: flex-start;
     align-items: center;
 }
+
 .footer {
     display: flex;
     flex: 1;
