@@ -36,7 +36,7 @@ export default function QuestionDialog(props) {
             <Dialog open={open} onClose={handleClose}>
                 <DialogTitle>意見</DialogTitle>
                 <DialogContent>
-                    <Alert icon={<QuestionAnswerOutlinedIcon fontSize="inherit" />} severity="warning">
+                    <Alert severity="warning">
                         <strong>
                             您的意見在收到答復後會出現在此頁
                         </strong>
