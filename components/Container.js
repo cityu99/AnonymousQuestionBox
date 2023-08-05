@@ -17,9 +17,6 @@ export default function Container(props) {
 
             <main className={styles.main}>{children}</main>
 
-            <footer className={styles.footer}>
-                
-            </footer>
         </div>
     );
 }
