@@ -31,7 +31,7 @@ export default function QuestionDialog(props) {
     };
 
     return (
-        <div>
+        <div style={{ position: "fixed" }}>
             <Dialog open={open} onClose={handleClose}>
                 <DialogTitle>意見</DialogTitle>
                 <DialogContent>
