@@ -5,8 +5,8 @@ export default async function handler(req, res) {
     let settings = await query.first();
     if (!settings) {
         settings = new Settings();
-        settings.set("description", "这是");
-        settings.set("inboxName", "提问箱");
+        settings.set("description", "这是提问箱");
+        settings.set("inboxName", "提问箱啊啊啊啊");
         settings.set("infoEmail", "");
         settings.set("ipInterceptCount", 3);
         settings.set("ipInterceptTime", 60); // 60 minutes
