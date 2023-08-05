@@ -32,7 +32,7 @@
     margin: 0;
     line-height: 1.15;
     font-size: calc(1.5rem + 2vmin);
-    background-image: linear-gradient(to right, orange, purple);
+    background-image: linear-gradient(to right, azure, purple);
     background-clip: text;
     color: transparent;
 }
