@@ -51,7 +51,7 @@ export default function QuestionDialog(props) {
                         multiline
                         margin="dense"
                         id="content"
-                        label="建議內容"
+                        label="意見內容"
                         variant="filled"
                     />
                 </DialogContent>
