@@ -33,11 +33,15 @@ export default function QuestionDialog(props) {
     return (
         <div>
             <Dialog open={open} onClose={handleClose}>
-                <DialogTitle>您的意見</DialogTitle>
+                <DialogTitle>提问</DialogTitle>
                 <DialogContent>
                     <Alert severity="warning">
                         <strong>
-                           您所提出之意見將在收到答復後於此頁公開
+                            除了问题以外的任何信息都不会被记录。
+                            <br />
+                            提问请遵循当地的法律法规，切勿涉及政治、色情、暴力等非法内容。
+                            <br />
+                            只有被回答的问题才会出现在首页列表中。
                         </strong>
                     </Alert>
                     <TextField
