@@ -5,7 +5,7 @@ export default async function handler(req, res) {
     let settings = await query.first();
     if (!settings) {
         settings = new Settings();
-        settings.set("description", "这是一个简单的提问箱");
+        settings.set("description", "这是一个提问箱");
         settings.set("inboxName", "提问箱");
         settings.set("infoEmail", "");
         settings.set("ipInterceptCount", 3);

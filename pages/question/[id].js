@@ -90,7 +90,7 @@ export default function QuestionCard(props) {
     };
 
     return (
-        <Container title="问题详情">
+        <Container title="詳細建議">
             {!question ? (
                 <CircularProgress />
             ) : (

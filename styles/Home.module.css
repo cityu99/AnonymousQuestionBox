@@ -32,7 +32,8 @@
     margin: 0;
     line-height: 1.15;
     font-size: calc(1.5rem + 2vmin);
-    background-image: linear-gradient(to right, orange, purple);
+    background-image: radial-gradient(100% 244.46% at 0% 0%, #CCFF00 0%, #FF027C 100%), radial-gradient(50% 122.23% at 50% 50%, #9AA4FF 0%, #306C00 100%), radial-gradient(100.45% 245.58% at 0% 0%, #000AFE 0%, #70FF00 100%), linear-gradient(127.43deg, #7B0007 0%, #8F73FF 100%);
+    background-blend-mode: lighten, color-dodge, difference, normal;
     background-clip: text;
     color: transparent;
 }
@@ -80,7 +81,8 @@
 
 .card:focus,
 .card:active {
-    background-image: linear-gradient(to right, orange, purple);
+    background-image:  radial-gradient(100% 244.46% at 0% 0%, #CCFF00 0%, #FF027C 100%), radial-gradient(50% 122.23% at 50% 50%, #9AA4FF 0%, #306C00 100%), radial-gradient(100.45% 245.58% at 0% 0%, #000AFE 0%, #70FF00 100%), linear-gradient(127.43deg, #7B0007 0%, #8F73FF 100%);
+    background-blend-mode: lighten, color-dodge, difference, normal;
     background-clip: text;
     color: transparent;
     border-color: orange;
@@ -125,7 +127,7 @@
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 5px;
-    background-image: linear-gradient(to left, orange, purple);
+    background-image: radial-gradient(100% 244.46% at 0% 0%, #CCFF00 0%, #FF027C 100%), radial-gradient(50% 122.23% at 50% 50%, #9AA4FF 0%, #306C00 100%), radial-gradient(100.45% 245.58% at 0% 0%, #000AFE 0%, #70FF00 100%), linear-gradient(127.43deg, #7B0007 0%, #8F73FF 100%);
     background-clip: border-box;
     cursor: pointer;
     width: 100%;
