@@ -6,6 +6,7 @@ import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
 import DialogTitle from "@mui/material/DialogTitle";
 import Alert from "@mui/material/Alert";
+import QuestionAnswerOutlinedIcon from '@material-ui/icons/QuestionAnswerOutlined';
 
 export default function QuestionDialog(props) {
     const { open, onClose, onSubmit } = props;
@@ -35,7 +36,7 @@ export default function QuestionDialog(props) {
             <Dialog open={open} onClose={handleClose}>
                 <DialogTitle>意見</DialogTitle>
                 <DialogContent>
-                    <Alert severity="success">
+                    <Alert icon={<QuestionAnswerOutlinedIcon fontSize="inherit" />} severity="warning">
                         <strong>
                             您的意見在收到答復後會出現在此頁
                         </strong>
