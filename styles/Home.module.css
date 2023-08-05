@@ -81,8 +81,10 @@
 
 .card:focus,
 .card:active {
+    background-color: rgba(255, 255, 255, 0.5);
     background-image: linear-gradient(to right, orange, purple);
     background-clip: text;
+    -webkit-background-clip: text; /* Safari 兼容性前缀 */
     color: transparent;
     border-color: orange;
 }
