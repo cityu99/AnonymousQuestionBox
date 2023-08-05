@@ -74,7 +74,7 @@ export default function Home(props) {
             </Alert>
             <div className={styles.buttonBar}>
                 <Button onClick={() => setOpen(true)} sx={{ maxWidth: 400, width: logged ? "50%" : "100%" }} variant="contained">
-                    點我提意見
+                    點此提意見
                 </Button>
                 {logged && (
                     <Button onClick={() => router.push(`/settings?token=${token}`)} sx={{ maxWidth: 400, width: "50%" }} variant="contained">
